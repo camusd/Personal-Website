@@ -1,14 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+/* line 3, ../scss/style.scss */
 body {
   font-family: 'Lato';
 }
 
+/* line 7, ../scss/style.scss */
 h1 {
   font-size: 5rem;
   font-weight: bold;
   color: #fff;
 }
 
+/* line 13, ../scss/style.scss */
 h2 {
   font-size: 4rem;
   text-transform: uppercase;
@@ -17,6 +20,7 @@ h2 {
   color: #fff;
 }
 
+/* line 21, ../scss/style.scss */
 h3 {
   font-size: 3rem;
   margin: 5% 0;
@@ -24,30 +28,37 @@ h3 {
   font-weight: bold;
 }
 
+/* line 28, ../scss/style.scss */
 .navbar {
   font-size: 1.2rem;
   letter-spacing: 0.4rem;
 }
+/* line 31, ../scss/style.scss */
 .navbar .navbar-nav {
   margin: 0;
 }
+/* line 36, ../scss/style.scss */
 .navbar .navbar-right .active a {
   background-color: #909AA0 !important;
   color: #fff !important;
 }
+/* line 43, ../scss/style.scss */
 .navbar .navbar-right li:hover a,
 .navbar .navbar-right .active:hover a {
   background-color: #013A70 !important;
   color: #fff !important;
 }
 
+/* line 51, ../scss/style.scss */
 .social-list {
   padding: 4px 20px;
   display: table;
 }
+/* line 54, ../scss/style.scss */
 .social-list li {
   display: table-cell;
 }
+/* line 56, ../scss/style.scss */
 .social-list li i {
   width: 40px;
   height: 40px;
@@ -68,25 +79,32 @@ h3 {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
+/* line 76, ../scss/style.scss */
 .social-list li .fa-facebook:hover {
   background: #3B5998;
 }
+/* line 79, ../scss/style.scss */
 .social-list li .fa-github:hover {
   background: #131111;
 }
+/* line 82, ../scss/style.scss */
 .social-list li .fa-linkedin:hover {
   background: #0077B5;
 }
+/* line 85, ../scss/style.scss */
 .social-list li .fa-codepen:hover {
   background: #131111;
 }
+/* line 88, ../scss/style.scss */
 .social-list li .fa-fire:hover {
   background: #492C14;
 }
+/* line 91, ../scss/style.scss */
 .social-list li a {
   padding: 2px 4px;
 }
 
+/* line 98, ../scss/style.scss */
 header .banner {
   background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/54deiOy_zps4sdqlyrd.jpg") no-repeat;
   background-position: top;
@@ -98,6 +116,7 @@ header .banner {
   -ms-background-size: cover;
   background-size: cover;
 }
+/* line 109, ../scss/style.scss */
 header .banner-content {
   color: #fff;
   text-align: right;
@@ -165,6 +184,7 @@ header .banner-content {
     transform: translateY(-15px);
   }
 }
+/* line 134, ../scss/style.scss */
 .arrow {
   position: fixed;
   bottom: 0;
@@ -176,23 +196,28 @@ header .banner-content {
   background-size: contain;
 }
 
+/* line 145, ../scss/style.scss */
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
+/* line 149, ../scss/style.scss */
 .about {
   background-color: #eee;
 }
+/* line 151, ../scss/style.scss */
 .about .about-content {
   margin-top: 5%;
 }
+/* line 154, ../scss/style.scss */
 .about .about-text {
   font-size: 2rem;
   line-height: 2;
   margin: 5%;
 }
+/* line 159, ../scss/style.scss */
 .about .img-circle {
   height: auto;
   width: auto;
@@ -200,10 +225,12 @@ header .banner-content {
   max-width: 300px;
 }
 
+/* line 167, ../scss/style.scss */
 .portfolio {
   padding-bottom: 3%;
   background-color: #011C38;
 }
+/* line 170, ../scss/style.scss */
 .portfolio .block {
   box-shadow: 8px 8px 15px #000;
   overflow: hidden;
@@ -213,6 +240,7 @@ header .banner-content {
   border-color: #000;
   border-width: 1px;
 }
+/* line 179, ../scss/style.scss */
 .portfolio .block::after {
   content: '';
   position: absolute;
@@ -223,10 +251,12 @@ header .banner-content {
   overflow: hidden;
   transition: 0.5s;
 }
+/* line 189, ../scss/style.scss */
 .portfolio .block:hover:after {
   background: black;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
+/* line 193, ../scss/style.scss */
 .portfolio .project-caption {
   text-align: center;
   font-family: "Lato", serif;
@@ -244,43 +274,28 @@ header .banner-content {
   border: 2px solid #fff;
   transition: top 0.5s;
 }
+/* line 210, ../scss/style.scss */
 .portfolio .block:hover .project-caption {
-  top: 33%;
+  top: 40%;
 }
+/* line 213, ../scss/style.scss */
 .portfolio .project-thumb {
-  height: 300px;
+  height: 400px;
 }
+/* line 216, ../scss/style.scss */
 .portfolio .project-1 {
   background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/silicontracker_zpszfqa14wq.png") no-repeat 100%;
   background-size: cover;
   background-position: center;
 }
+/* line 221, ../scss/style.scss */
 .portfolio .project-2 {
   background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/5554Nexus_5X_API_19_009_zpsp8r3hc7z.png") no-repeat 100%;
   background-size: cover;
   background-position: top;
 }
-.portfolio .project-3 {
-  background: url("#") no-repeat 100%;
-  background-size: cover;
-  background-position: center;
-}
-.portfolio .project-4 {
-  background: url("#") no-repeat 100%;
-  background-size: cover;
-  background-position: center;
-}
-.portfolio .project-5 {
-  background: url("#") no-repeat 100%;
-  background-size: cover;
-  background-position: center;
-}
-.portfolio .project-6 {
-  background: url("#") no-repeat 100%;
-  background-size: cover;
-  background-position: center;
-}
 
+/* line 248, ../scss/style.scss */
 .contact {
   background: url("http://mixhdwallpapers.com/wp-content/uploads/2014/03/15.night_sky_hd.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -288,12 +303,15 @@ header .banner-content {
   color: #fff;
   padding: 1%;
 }
+/* line 254, ../scss/style.scss */
 .contact a {
   color: #fff;
 }
+/* line 257, ../scss/style.scss */
 .contact a:hover {
   color: #07A2DB;
 }
+/* line 260, ../scss/style.scss */
 .contact .contact-text {
   font-family: "Lato", serif;
   font-size: 1.5rem;
@@ -301,6 +319,7 @@ header .banner-content {
   letter-spacing: 0.33rem;
 }
 
+/* line 268, ../scss/style.scss */
 footer {
   width: 100%;
   text-align: center;
@@ -309,15 +328,18 @@ footer {
 }
 
 @media screen and (min-width: 993px) {
+  /* line 277, ../scss/style.scss */
   header .banner {
     background-position: center;
   }
+  /* line 280, ../scss/style.scss */
   header .banner-content {
     margin-top: 50%;
     margin-bottom: 15%;
   }
 }
 @media screen and (max-width: 992px) {
+  /* line 289, ../scss/style.scss */
   header .banner-content {
     text-align: center;
     margin-top: 20%;

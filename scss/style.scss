@@ -188,7 +188,7 @@ header {
   }
   .block:hover:after {
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
   }
   .project-caption {
     text-align: center;
@@ -208,10 +208,10 @@ header {
     transition: top 0.5s;
   }
   .block:hover .project-caption {
-    top: 33%;
+    top: 40%;
   }
   .project-thumb {
-    height: 300px;
+    height: 400px;
   }
   .project-1 {
     background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/silicontracker_zpszfqa14wq.png") no-repeat 100%;
@@ -223,26 +223,26 @@ header {
     background-size: cover;
     background-position: top;
   }
-  .project-3 {
-    background: url("#") no-repeat 100%;
-    background-size: cover;
-    background-position: center;
-  }
-  .project-4 {
-    background: url("#") no-repeat 100%;
-    background-size: cover;
-    background-position: center;
-  }
-  .project-5 {
-    background: url("#") no-repeat 100%;
-    background-size: cover;
-    background-position: center;
-  }
-  .project-6 {
-    background: url("#") no-repeat 100%;
-    background-size: cover;
-    background-position: center;
-  }
+  // .project-3 {
+  //   background: url("#") no-repeat 100%;
+  //   background-size: cover;
+  //   background-position: center;
+  // }
+  // .project-4 {
+  //   background: url("#") no-repeat 100%;
+  //   background-size: cover;
+  //   background-position: center;
+  // }
+  // .project-5 {
+  //   background: url("#") no-repeat 100%;
+  //   background-size: cover;
+  //   background-position: center;
+  // }
+  // .project-6 {
+  //   background: url("#") no-repeat 100%;
+  //   background-size: cover;
+  //   background-position: center;
+  // }
 }
 
 .contact {
