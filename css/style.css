@@ -239,8 +239,9 @@ header .banner-content {
   border-style: solid;
   border-color: #000;
   border-width: 1px;
+  min-width: 300px;
 }
-/* line 179, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .portfolio .block::after {
   content: '';
   position: absolute;
@@ -251,12 +252,12 @@ header .banner-content {
   overflow: hidden;
   transition: 0.5s;
 }
-/* line 189, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .portfolio .block:hover:after {
   background: black;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 193, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .portfolio .project-caption {
   text-align: center;
   font-family: "Lato", serif;
@@ -274,28 +275,28 @@ header .banner-content {
   border: 2px solid #fff;
   transition: top 0.5s;
 }
-/* line 210, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .portfolio .block:hover .project-caption {
   top: 40%;
 }
-/* line 213, ../scss/style.scss */
+/* line 214, ../scss/style.scss */
 .portfolio .project-thumb {
   height: 400px;
 }
-/* line 216, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .portfolio .project-1 {
   background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/silicontracker_zpszfqa14wq.png") no-repeat 100%;
   background-size: cover;
   background-position: center;
 }
-/* line 221, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .portfolio .project-2 {
   background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/5554Nexus_5X_API_19_009_zpsp8r3hc7z.png") no-repeat 100%;
   background-size: cover;
   background-position: top;
 }
 
-/* line 248, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 .contact {
   background: url("http://mixhdwallpapers.com/wp-content/uploads/2014/03/15.night_sky_hd.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -303,15 +304,15 @@ header .banner-content {
   color: #fff;
   padding: 1%;
 }
-/* line 254, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .contact a {
   color: #fff;
 }
-/* line 257, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .contact a:hover {
   color: #07A2DB;
 }
-/* line 260, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .contact .contact-text {
   font-family: "Lato", serif;
   font-size: 1.5rem;
@@ -319,7 +320,7 @@ header .banner-content {
   letter-spacing: 0.33rem;
 }
 
-/* line 268, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 footer {
   width: 100%;
   text-align: center;
@@ -328,20 +329,25 @@ footer {
 }
 
 @media screen and (min-width: 993px) {
-  /* line 277, ../scss/style.scss */
+  /* line 278, ../scss/style.scss */
   header .banner {
     background-position: center;
   }
-  /* line 280, ../scss/style.scss */
+  /* line 281, ../scss/style.scss */
   header .banner-content {
     margin-top: 50%;
     margin-bottom: 15%;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 289, ../scss/style.scss */
+  /* line 290, ../scss/style.scss */
   header .banner-content {
     text-align: center;
     margin-top: 20%;
+  }
+
+  /* line 296, ../scss/style.scss */
+  .portfolio .block {
+    height: 300px;
   }
 }

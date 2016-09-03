@@ -175,6 +175,7 @@ header {
     border-style: solid;
     border-color: #000;
     border-width: 1px;
+    min-width: 300px;
   }
   .block::after {
     content: '';
@@ -289,6 +290,11 @@ footer {
     .banner-content {
       text-align: center;
       margin-top: 20%;
+    }
+  }
+  .portfolio {
+    .block {
+      height: 300px;
     }
   }
 }
