@@ -187,7 +187,7 @@ header .banner-content {
 /* line 134, ../scss/style.scss */
 .arrow {
   position: fixed;
-  bottom: 0;
+  bottom: 15%;
   left: 50%;
   margin-left: -20px;
   width: 40px;
@@ -304,7 +304,7 @@ header .banner-content {
   background-size: cover;
   color: #fff;
   padding: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 /* line 260, ../scss/style.scss */
 .contact a {

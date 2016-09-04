@@ -2,11 +2,19 @@ $(document).ready(function() {
   let currentTime = new Date();
   let year = currentTime.getFullYear();
 
-  $('a[href^="#"]').click(function(event) {
-    event.preventDefault();
-    $('html,body').animate({
-      scrollTop: $(this.hash).offset().top
-    }, 900);
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        let target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
   });
 
   $("#copyright").append("<span>&copy; " + year + " Dylan Camus. All rights reserved</span>");
@@ -27,6 +35,6 @@ $(document).ready(function() {
 
 $(document).on('click', '.navbar-collapse.in', function(e) {
     if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
-        $(this).collapse('hide');
+      $(this).collapse('hide');
     }
 });
