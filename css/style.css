@@ -304,7 +304,7 @@ header .banner-content {
   background-size: cover;
   color: #fff;
   padding: 1%;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 /* line 260, ../scss/style.scss */
 .contact a {
