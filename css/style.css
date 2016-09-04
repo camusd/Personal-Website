@@ -327,27 +327,28 @@ footer {
   text-align: center;
   background-color: #000;
   color: #eee;
+  margin-bottom: 5%;
 }
 
 @media screen and (min-width: 993px) {
-  /* line 282, ../scss/style.scss */
+  /* line 283, ../scss/style.scss */
   header .banner {
     background-position: center;
   }
-  /* line 285, ../scss/style.scss */
+  /* line 286, ../scss/style.scss */
   header .banner-content {
     margin-top: 50%;
     margin-bottom: 15%;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 294, ../scss/style.scss */
+  /* line 295, ../scss/style.scss */
   header .banner-content {
     text-align: center;
     margin-top: 20%;
   }
 
-  /* line 300, ../scss/style.scss */
+  /* line 301, ../scss/style.scss */
   .portfolio .block {
     height: 300px;
   }
