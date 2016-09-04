@@ -304,16 +304,17 @@ header .banner-content {
   background-size: cover;
   color: #fff;
   padding: 1%;
+  margin-bottom: 5%;
 }
-/* line 259, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 .contact a {
   color: #fff;
 }
-/* line 262, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .contact a:hover {
   color: #07A2DB;
 }
-/* line 265, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .contact .contact-text {
   font-family: "Lato", serif;
   font-size: 1.5rem;
@@ -321,13 +322,12 @@ header .banner-content {
   letter-spacing: 0.33rem;
 }
 
-/* line 273, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 footer {
   width: 100%;
   text-align: center;
   background-color: #000;
   color: #eee;
-  padding-bottom: 5%;
 }
 
 @media screen and (min-width: 993px) {
