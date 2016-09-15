@@ -106,7 +106,7 @@ h3 {
 
 /* line 98, ../scss/style.scss */
 header .banner {
-  background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/54deiOy_zps4sdqlyrd.jpg") no-repeat;
+  background: url("../images/54deiOy.jpg") no-repeat;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -292,20 +292,20 @@ header .banner-content .arrow-container .bounce {
 }
 /* line 226, ../scss/style.scss */
 .portfolio .project-1 {
-  background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/silicontracker_zpszfqa14wq.png") no-repeat 100%;
+  background: url("../images/silicontracker.png") no-repeat 100%;
   background-size: cover;
   background-position: center;
 }
 /* line 231, ../scss/style.scss */
 .portfolio .project-2 {
-  background: url("http://i1378.photobucket.com/albums/ah96/Dylan_Camus/5554Nexus_5X_API_19_009_zpsp8r3hc7z.png") no-repeat 100%;
+  background: url("../images/5554:Nexus_5X_API_19_009.png") no-repeat 100%;
   background-size: cover;
   background-position: top;
 }
 
 /* line 258, ../scss/style.scss */
 .contact {
-  background: url("http://mixhdwallpapers.com/wp-content/uploads/2014/03/15.night_sky_hd.jpg") no-repeat;
+  background: url("../images/night-sky-desktop_346758.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
