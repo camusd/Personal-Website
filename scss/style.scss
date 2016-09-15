@@ -184,7 +184,6 @@ header {
     border-style: solid;
     border-color: #000;
     border-width: 1px;
-    min-width: 300px;
   }
   .block::after {
     content: '';
@@ -297,11 +296,6 @@ footer {
           margin-left: -20px;
         }
       }
-    }
-  }
-  .portfolio {
-    .block {
-      height: 300px;
     }
   }
 }

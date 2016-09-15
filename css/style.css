@@ -246,9 +246,8 @@ header .banner-content .arrow-container .bounce {
   border-style: solid;
   border-color: #000;
   border-width: 1px;
-  min-width: 300px;
 }
-/* line 189, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 .portfolio .block::after {
   content: '';
   position: absolute;
@@ -259,12 +258,12 @@ header .banner-content .arrow-container .bounce {
   overflow: hidden;
   transition: 0.5s;
 }
-/* line 199, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .portfolio .block:hover:after {
   background: black;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 203, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .portfolio .project-caption {
   text-align: center;
   font-family: "Lato", serif;
@@ -282,28 +281,28 @@ header .banner-content .arrow-container .bounce {
   border: 2px solid #fff;
   transition: top 0.5s;
 }
-/* line 220, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .portfolio .block:hover .project-caption {
   top: 40%;
 }
-/* line 223, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .portfolio .project-thumb {
   height: 400px;
 }
-/* line 226, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .portfolio .project-1 {
   background: url("../images/silicontracker.png") no-repeat 100%;
   background-size: cover;
   background-position: center;
 }
-/* line 231, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .portfolio .project-2 {
   background: url("../images/5554:Nexus_5X_API_19_009.png") no-repeat 100%;
   background-size: cover;
   background-position: top;
 }
 
-/* line 258, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .contact {
   background: url("../images/night-sky-desktop_346758.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -312,15 +311,15 @@ header .banner-content .arrow-container .bounce {
   padding: 1%;
   padding-bottom: 3%;
 }
-/* line 265, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .contact a {
   color: #fff;
 }
-/* line 268, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .contact a:hover {
   color: #07A2DB;
 }
-/* line 271, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 .contact .contact-text {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -328,7 +327,7 @@ header .banner-content .arrow-container .bounce {
   padding: 1% 15%;
 }
 
-/* line 279, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 footer {
   width: 100%;
   text-align: center;
@@ -337,7 +336,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 288, ../scss/style.scss */
+  /* line 287, ../scss/style.scss */
   header .banner-content {
     text-align: center;
     left: 0;
@@ -345,17 +344,12 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 294, ../scss/style.scss */
+  /* line 293, ../scss/style.scss */
   header .banner-content .arrow-container {
     margin-left: 50%;
   }
-  /* line 296, ../scss/style.scss */
+  /* line 295, ../scss/style.scss */
   header .banner-content .arrow-container .arrow {
     margin-left: -20px;
-  }
-
-  /* line 303, ../scss/style.scss */
-  .portfolio .block {
-    height: 300px;
   }
 }
