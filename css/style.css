@@ -18,7 +18,7 @@ h2 {
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.7rem;
-  margin: 5%;
+  margin: 3%;
   color: #fff;
 }
 
@@ -310,7 +310,7 @@ header .banner-content .arrow-container .bounce {
   background-size: cover;
   color: #fff;
   padding: 1%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 /* line 265, ../scss/style.scss */
 .contact a {
