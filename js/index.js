@@ -19,18 +19,18 @@ $(document).ready(function() {
 
   $("#copyright").append("<span>&copy; " + year + " Dylan Camus. All rights reserved</span>");
 
-  $(function() {
-    (function() {
-      let posY;
-      let image = document.getElementById('parallax');;
+//   $(function() {
+//     (function() {
+//       let posY;
+//       let image = document.getElementById('parallax');;
 
-      function paralax() {
-        posY = window.pageYOffset;
-        image.style.top = posY * 0.9 + 'px';
-      }
-      window.addEventListener('scroll', paralax);
-    })();
-  });
+//       function parallax() {
+//         posY = window.pageYOffset;
+//         image.style.top = posY * 0.9 + 'px';
+//       }
+//       window.addEventListener('scroll', parallax);
+//     })();
+//   });
 });
 
 $(document).on('click', '.navbar-collapse.in', function(e) {
