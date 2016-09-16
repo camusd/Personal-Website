@@ -23,16 +23,31 @@ $(document).ready(function() {
 
   $("#copyright").append("<span>&copy; " + year + " Dylan Camus. All rights reserved</span>");
 
-  // $(function() {
-  //   (function() {
-  //     let posY;
-  //     let image = document.getElementById('parallax');;
-  //
-  //     function parallax() {
-  //       posY = window.pageYOffset;
-  //       image.style.top = posY * 0.9 + 'px';
-  //     }
-  //     window.addEventListener('scroll', parallax);
-  //   })();
-  // });
+  $(function() {
+    (function() {
+      let posY;
+      let image = document.getElementById('parallax');;
+
+      function parallax() {
+        posY = window.pageYOffset;
+        image.style.top = posY * 0.8 + 'px';
+      }
+      window.addEventListener('scroll', parallax);
+    })();
+  });
+});
+
+let fadeStart=100; // 100px scroll or less will equiv to 1 opacity
+let fadeUntil=500; // 200px scroll or more will equiv to 0 opacity
+let fading = $('.fading');
+
+$(window).bind('scroll', function() {
+    let offset = $(document).scrollTop();
+    let opacity = 0;
+    if (offset <= fadeStart) {
+        opacity = 1;
+    } else if (offset <= fadeUntil) {
+        opacity = 1 - offset / fadeUntil;
+    }
+    fading.css('opacity', opacity);
 });
