@@ -350,3 +350,9 @@ footer {
     padding-bottom: 10%;
   }
 }
+@media screen and (max-width: 768px) {
+  /* line 300, ../scss/style.scss */
+  .about {
+    padding-top: 10vh;
+  }
+}
