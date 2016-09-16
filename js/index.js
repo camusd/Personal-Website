@@ -37,8 +37,8 @@ $(document).ready(function() {
   });
 });
 
-let fadeStart=100; // 100px scroll or less will equiv to 1 opacity
-let fadeUntil=500; // 200px scroll or more will equiv to 0 opacity
+let fadeStart=100;
+let fadeUntil=500;
 let fading = $('.fading');
 
 $(window).bind('scroll', function() {
