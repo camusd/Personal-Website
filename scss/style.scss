@@ -106,13 +106,12 @@ header {
     z-index: -1;
   }
   .banner-content {
+    position: relative;
+    top: 55vh;
     color: #fff;
-    padding-top: 55%;
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
-    left: 50%;
-    bottom: 10%;
     .arrow-container {
       margin-top: 5%;
       margin-left: 50%;
@@ -282,6 +281,7 @@ footer {
   header {
     .banner-content {
       text-align: center;
+      top: 30vh;
       left: 0;
       right: 0;
       padding-left: 20px;
